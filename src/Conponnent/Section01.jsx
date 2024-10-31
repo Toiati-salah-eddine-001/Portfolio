@@ -2,7 +2,7 @@ import Image from "./Complement/Image";
 
 const Section01 = () => {
   return (
-<div className="section01 w-full h-[70vh] flex items-center justify-center mx-auto mt-16 relative">
+<div className="section01 w-full h-[70vh] flex items-center justify-center mx-auto mt-16 relative px-11">
     <div className="relative">
         <Image
             src="https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2217.jpg?ga=GA1.1.1057611772.1726437422&semt=ais_hybrid"
@@ -18,7 +18,6 @@ const Section01 = () => {
         </h1>
     </div>
 </div>
-
 
   )
 }
