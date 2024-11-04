@@ -4,6 +4,8 @@ import "./App.css"
 import Section01 from "./Conponnent/Section01"
 import Section02 from "./Conponnent/Section02"
 import Section03 from "./Conponnent/Section03"
+import Section05 from "./Conponnent/Section05"
+import Section06 from "./Conponnent/Section06"
 function App() {
   return (
     <div className="container h-screen bg-gray-900">
@@ -12,6 +14,8 @@ function App() {
     <Section01/>
     <Section02/>
     <Section03/>
+    <div className=" px-10 bg-gray-900"><Section05/></div>
+    <Section06/>
     </div>
   )
 }
