@@ -3,18 +3,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import LazyLoad from 'react-lazyload';
 function Section05() {
 
     var settings = {
 
-            dots: true,
-            infinite: true,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            speed: 1000, // Adjusted speed
-            autoplaySpeed: 3000,
-            cssEase: "linear",
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 1,
           
         responsive: [
           {
@@ -111,7 +109,9 @@ function Section05() {
                     //  }}
                     style={{ margin: "0 10px" }}
                      className="card bg-white rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-102 " key={id}>
-                        <img src={skill.img} alt={skill.name} className="w-full h-40 object-cover" />
+                        <LazyLoad height={160} offset={200} once>
+                            <img src={skill.img} alt={skill.name} className="w-full h-40 object-cover" />
+                        </LazyLoad>
                         <div className="p-4">
                             <h3 className="text-lg font-semibold text-gray-800">{skill.name}</h3>
                             <p className="text-gray-600 text-sm">{skill.description}</p>

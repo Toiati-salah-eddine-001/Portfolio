@@ -1,4 +1,5 @@
 import "./Section06.css";
+// import Barcode from "Barcode.jpg"
 
 function Section06() {
   return (
@@ -12,7 +13,7 @@ function Section06() {
         <div className="flex items-center justify-center space-x-10 h-[80vh]  gap-80">
           {/* GitHub Icon */}
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/Toiati-salah-eddine-001"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center bg-gray-800 hover:bg-gray-700 rounded-full transition duration-300 h-60 w-60"
@@ -26,15 +27,16 @@ function Section06() {
 
           {/* QR Code */}
           <a
-  href="https://github.com/your-profile"
+  href="https://github.com/Toiati-salah-eddine-001"
   target="_blank"
   rel="noopener noreferrer"
-  className="flex items-center justify-center bg-gray-800 hover:bg-gray-700 rounded-xl transition duration-300  w-96 h-60"
+  className="flex items-center justify-center bg-gray-800 hover:bg-gray-700 rounded-xl transition duration-300 w-96 h-60"
 >
   <img
-    src="https://example.com/your-qr-code.png"
+    // src="barcode.gif"
+    src="Barcode.png"
     alt="QR Code"
-    className="w-24 h-24 border-4 border-gray-700 rounded-lg"
+    className="w-48 h-48 border-4 border-gray-700 rounded-lg" // Increased size to w-48 and h-48
   />
 </a>
 
