@@ -1,3 +1,9 @@
 .container{
-    background: url("/bg-mainSection.jpg");
+    /* background: url("/bg-mainSection.jpg"); */
+    background-image: url('bg-mainSection.jpg');
+    background-position: center center;
+    background-size: cover;
+
+
+    scroll-snap-type: y mandatory;
 }

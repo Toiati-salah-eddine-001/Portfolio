@@ -7,7 +7,7 @@ const Section02 = () => {
   });
 
   return (
-    <div className="bg-gray-900 py-16 flex justify-center">
+    <div className="bg-gray-900 py-16 flex justify-center snap-start">
       <div className="ection 02 flex ">
         <div className="Prt1 w-[600px]">
           <div

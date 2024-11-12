@@ -9,7 +9,7 @@ import Section06 from "./Conponnent/Section06"
 import Section07 from "./Conponnent/Section07"
 function App() {
   return (
-    <div className="container h-screen bg-gray-900">
+    <div className="container ">
     {/* <ParticleBackground/> */}
     <Header/>
     <Section01/>
